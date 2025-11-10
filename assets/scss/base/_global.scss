@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background: $color-light;
+}
+
+.button {
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 1rem;
+
+  @media screen and (max-width: 768px) {
+    font-size: 0.875rem;
+    padding: 0.75rem 0.5rem;
+  }
+
+  &--primary {
+    background: $button-color;
+    color: $color-light;
+    // transition: 2s;
+  }
+
+  &--primary:hover {
+    transition: 1s;
+    background-color: $button-color-hover;
+  }
+
+  &--secondary {
+    background: $color-light;
+    color: $button-color;
+    border-color: $button-color;
+  }
+
+  &--secondary:hover {
+    transition: 1s;
+    color: $button-color-hover;
+    border-color: $button-color-hover;
+  }
+}

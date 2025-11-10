@@ -1,0 +1,24 @@
+$color-light: #ffffff;
+$color-dark: #04031c;
+$background-color-light: #f8f9fa;
+$background-color-card: #F9FAFB;
+
+$primary-gradient: linear-gradient(to right, #4247a2 0%, #52b095 100%);
+$women-gradient: linear-gradient(
+  to right,
+  rgb(249, 1, 111, 54) 0%,
+  rgb(147, 8, 133, 62) 42%,
+  rgb(208, 56, 170, 75) 70%,
+  rgb(133, 28, 135, 100) 100%
+);
+$men-gradient: linear-gradient(
+  to right,
+  #3373d2 16%,
+  #6f95c7 33%,
+  #7bb5f5 55%,
+  #0074ee 69%,
+  #5ea7ef 87%
+);
+
+$button-color: #1173d4;
+$button-color-hover: #084a8b;

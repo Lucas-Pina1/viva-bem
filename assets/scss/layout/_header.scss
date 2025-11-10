@@ -1,0 +1,117 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../assets/img/bannerHeader.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  @media screen and (max-width: 768px) {
+    background-image: none;
+  }
+
+  .box-header {
+    margin-top: 30px;
+    padding: 0.5rem 0;
+    width: 80%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: $primary-gradient;
+    box-shadow: 6px 6px 10px 1px rgb(0, 0, 0, 0.25);
+
+    @media screen and (max-width: 768px) {
+      width: 90%;
+    }
+
+    img {
+      margin-left: 3%;
+
+      @media screen and (max-width: 768px) {
+        width: 25%;
+      }
+    }
+
+    nav {
+      width: 40%;
+      margin-right: 20%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      @media screen and (max-width: 768px) {
+        gap: 1rem;
+        font-size: 0.875rem;
+      }
+
+      a {
+        color: $color-light;
+        font-family: "Roboto", sans-serif;
+      }
+    }
+  }
+}
+
+.box-banner {
+  width: 80%;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    height: 50vh;
+    justify-content: center;
+  }
+
+  .box-titulo {
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      display: flex;
+      margin: 0 auto;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    h2 {
+      max-width: 600px;
+      margin-bottom: 2rem;
+      font-size: 2.7rem;
+      font-weight: bold;
+      background: $primary-gradient;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+      font-weight: bold;
+
+      @media screen and (max-width: 768px) {
+        font-size: 2rem;
+        max-width: 250px;
+        margin-bottom: 0.5rem;
+      }
+    }
+
+    p {
+      max-width: 400px;
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+
+      @media screen and (max-width: 768px) {
+        font-size: 1.25rem;
+        max-width: 270px;
+      }
+    }
+
+    .button__group {
+      display: flex;
+      gap: 1rem;
+
+      @media screen and (max-width: 768px) {
+        align-items: center;
+      }
+    }
+  }
+}
