@@ -12,7 +12,11 @@
   // gap: 3rem;
 
   .box-prevencao {
-    width: 60%;
+    width: 80%;
+
+    @media screen and (min-width: 1900px) {
+      width: 60%;
+    }
 
     @media screen and (max-width: 768px) {
       width: 90%;
