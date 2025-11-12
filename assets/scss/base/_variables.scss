@@ -7,14 +7,14 @@ $color-light-blue : #CFE2F3;
 $color-dark-green : #244A2D;
 $color-light-green : #D4EDDA;
 $color-dark-yellow : #976C00;
-$color-light-green : #FFE9C2;
+$color-light-yellow : #FFE9C2;
 
 $background-color-light: #f8f9fa;
 $background-color-card: #F9FAFB;
 $background-prev-fem: #FDEFEF;
 $background-color-footer: #313461;
 
-$primary-gradient: linear-gradient(to right, #4247a2 0%, #52b095 100%);
+$primary-gradient: linear-gradient(to right,  #4247a2 0%, #52b095 100%);
 $women-gradient: linear-gradient(
   to right,
   rgb(249, 1, 111, 54) 0%,
@@ -31,6 +31,7 @@ $men-gradient: linear-gradient(
   #0074ee 69%,
   #5ea7ef 87%
 );
+$title-gradient: linear-gradient(to right,  #1173D4 0%, #33CC73 75%);
 
 $button-color: #1173d4;
 $button-color-hover: #084a8b;
