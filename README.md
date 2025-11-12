@@ -1,7 +1,5 @@
 # 🩺 Desafio: Página "Viva Bem"
 
-**Data de entrega:** 17 de novembro, 23:59
-
 Neste desafio, você irá criar uma página moderna e informativa focada na **prevenção de exames de rotina para homens e mulheres**, destacando a importância do **autocuidado e da saúde preventiva**.  
 A missão é construir uma **interface clara, acolhedora e responsiva**, utilizando **Flexbox** para estruturar cada parte do layout — sempre priorizando a **organização visual e a acessibilidade** do conteúdo.
 
